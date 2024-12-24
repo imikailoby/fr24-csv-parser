@@ -1,6 +1,6 @@
 {
   "name": "@imikailoby/fr24-csv-parser",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A CSV parser for files exported from myFlightRadar24, returning structured flight data",
   "author": "Mikhail Prosmitskiy",
   "repository": {
