@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FRParser parse: parse-default 1`] = `
+[
+  {
+    "aircraft": {
+      "code": "A339",
+      "id": "2130",
+      "manufacturer": "Airbus",
+      "model": "A330-900neo",
+      "registration": null,
+    },
+    "airline": {
+      "iata": "DL",
+      "icao": "DAL",
+      "id": "223",
+      "name": "Delta Air Lines",
+    },
+    "flight": {
+      "arrivalId": "1328",
+      "arrivalTime": "14:30:00",
+      "date": "2024-10-12",
+      "departureId": "122",
+      "departureTime": "12:10:00",
+      "duration": "08:20:00",
+      "number": "DL49",
+    },
+    "from": {
+      "airport": "Schiphol",
+      "city": "Amsterdam",
+      "iata": "AMS",
+      "icao": "EHAM",
+    },
+    "passenger": {
+      "cabin": "economy",
+      "note": null,
+      "reason": "leisure",
+      "seat": {
+        "number": "1A",
+        "type": "window",
+      },
+    },
+    "to": {
+      "airport": "John F Kennedy",
+      "city": "New York",
+      "iata": "JFK",
+      "icao": "KJFK",
+    },
+  },
+]
+`;

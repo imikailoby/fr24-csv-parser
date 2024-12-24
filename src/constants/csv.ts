@@ -1,0 +1,48 @@
+export enum CsvDataRowIndex {
+  HEADER = 0,
+  FIRST_BODY_ROW,
+}
+
+export enum CsvDataColumnIndex {
+  DATE = 0,
+  FLIGHT_NUMBER,
+  FROM,
+  TO,
+  DEP_TIME,
+  ARR_TIME,
+  DURATION,
+  AIRLINE,
+  AIRCRAFT,
+  REGISTRATION,
+  SEAT_NUMBER,
+  SEAT_TYPE,
+  FLIGHT_CLASS,
+  FLIGHT_REASON,
+  NOTE,
+  DEP_ID,
+  ARR_ID,
+  AIRLINE_ID,
+  AIRCRAFT_ID,
+}
+
+export const EXPECTED_CSV_COLUMNS = [
+  'Date',
+  'Flight number',
+  'From',
+  'To',
+  'Dep time',
+  'Arr time',
+  'Duration',
+  'Airline',
+  'Aircraft',
+  'Registration',
+  'Seat number',
+  'Seat type',
+  'Flight class',
+  'Flight reason',
+  'Note',
+  'Dep_id',
+  'Arr_id',
+  'Airline_id',
+  'Aircraft_id',
+];

@@ -1,0 +1,13 @@
+# Directories
+node_modules
+src
+coverage
+.github
+
+# Other
+eslint.config.js
+.nvmrc
+.prettierrc
+jest.config.ts
+rollup.config.js
+tsconfig.json

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`csvParser parseCsv: empty-snapshot 1`] = `[]`;
+
+exports[`csvParser parseCsv: valid-snapshot 1`] = `
+[
+  [
+    "Date",
+    "Flight number",
+    "From",
+    "To",
+    "Dep time",
+    "Arr time",
+    "Duration",
+    "Airline",
+    "Aircraft",
+    "Registration",
+    "Seat number",
+    "Seat type",
+    "Flight class",
+    "Flight reason",
+    "Note",
+    "Dep_id",
+    "Arr_id",
+    "Airline_id",
+    "Aircraft_id",
+  ],
+  [
+    "2024-10-12",
+    "DL49",
+    "Amsterdam / Schiphol (AMS/EHAM)",
+    "New York / John F Kennedy (JFK/KJFK)",
+    "12:10:00",
+    "14:30:00",
+    "08:20:00",
+    "Delta Air Lines (DL/DAL)",
+    "Airbus A330-900neo (A339)",
+    "",
+    "1A",
+    "1",
+    "1",
+    "1",
+    "",
+    "122",
+    "1328",
+    "223",
+    "2130",
+  ],
+]
+`;
+
+exports[`csvParser validateCsvColumns: empty-snapshot 1`] = `"CSV-file is empty"`;
+
+exports[`csvParser validateCsvColumns: invalid-headers-snapshot 1`] = `"Error in the 2 column: expected "Flight number", but got """`;
+
+exports[`csvParser validateCsvColumns: invalid-snapshot 1`] = `"Expected 19 columns, but got 18"`;
