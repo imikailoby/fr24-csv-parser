@@ -10,7 +10,7 @@
   "main": "dist/index.min.js",
   "types": "dist/index.min.d.js",
   "scripts": {
-    "build": "rollup --config rollup.config.js",
+    "build": "rollup --config rollup.config.mjs",
     "lint": "eslint src/**/*.ts",
     "test": "jest",
     "test:coverage": "jest --collectCoverage",
@@ -47,6 +47,5 @@
     "ts-node": "^10.9.2",
     "tslib": "^2.8.1",
     "typescript": "^5.7.2"
-  },
-  "type": "module"
+  }
 }

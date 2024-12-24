@@ -8,6 +8,6 @@
     "declaration": true,
     "skipLibCheck": true
   },
-  "include": ["src/**/*", "rollup.config.js", "jest.config.ts"],
+  "include": ["src/**/*", "rollup.config.mjs", "jest.config.ts"],
   "exclude": ["node_modules", "dist"]
 }

@@ -5,9 +5,9 @@ coverage
 .github
 
 # Other
-eslint.config.js
+eslint.config.mjs
 .nvmrc
 .prettierrc
 jest.config.ts
-rollup.config.js
+rollup.config.mjs
 tsconfig.json
